@@ -1,4 +1,5 @@
-const socket = io('https://chat-c3ys.onrender.com')
+const baseUrl = 'https://chat-c3ys.onrender.com'
+const socket = io(baseUrl)
 const messageContainer = document.getElementById('message-container')
 const messageForm = document.getElementById('send-container')
 const messageInput = document.getElementById('message-input')
